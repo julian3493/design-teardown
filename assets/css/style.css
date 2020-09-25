@@ -8,11 +8,11 @@
     width: 1440px;
 }
 
-.d-gray {
+.gray {
   background-color: darkgrey;
 }
 
-.gray {
+.d-gray {
   background-color: gray;
 }
 
@@ -28,11 +28,23 @@
   flex-direction: column;
 }
 
+.grid-4 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
 /* ---------- Header --------- */
 
 .header {
   height: 15vh;
   align-items: center;
+  padding: 0 40px;
 }
 
 .logo-div {
@@ -43,4 +55,65 @@
 .list-item {
   height: 35px;
   width: 70px;
+  margin: 0 20px;
 }
+
+.header-search {
+  width: 250px;
+  height: 50px;
+}
+
+
+/* --------- First Section - 4 Articles */
+
+.section-one {
+  padding: 0 0 60px 60px;
+}
+
+.article-head {
+  margin-top: 40px;
+}
+
+.profile-pic {
+  width: 70px;
+  height: 70px;
+  margin-right: 25px;
+}
+
+.article-creator {
+  height: 15px;
+  width: 250px;
+  align-self: center;
+}
+
+.article-title {
+  width: 500px;
+  height: 150px;
+  margin: 30px 0;
+}
+
+.article-comment {
+  width: 300px;
+  height: 15px;
+}
+
+.article-tags-div {
+  margin: 30px 0;
+}
+
+.article-tags {
+  width: 50px;
+  height: 13px;
+  margin-right: 50px;
+}
+
+.bottom-arrow {
+  width: 40px;
+  height: 8px;
+  margin-top: 100px;
+}
+
+/* ------- Second Section - 3 Articles */
+
+
+
