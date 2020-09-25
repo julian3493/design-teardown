@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.d-gray {
+  background-color: darkgrey;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.l-gray {
+    background-color: lightgray;
+}
