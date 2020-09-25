@@ -28,6 +28,12 @@
   flex-direction: column;
 }
 
+.grid-6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
 .grid-4 {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -193,4 +199,85 @@
 .smashing-signin {
   width: 150px;
   height: 10px;
+}
+
+/* ------- Meet Click banner section */
+
+.meet-click-section {
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 900px;
+}
+
+.meet-click-date {
+  width: 250px;
+  height: 15px;
+}
+
+.meet-click-title {
+  width: 700px;
+  height: 130px;
+}
+
+.meet-click-message {
+  width: 650px;
+  height: 110px;
+}
+
+.meet-click-btn {
+  width: 270px;
+  height: 50px;
+}
+
+.meet-click-img {
+  width: 800px;
+  height: 400px
+}
+
+
+/* ------- Person of the week section */
+
+.more-articles-section {
+  margin-top: 50px;
+}
+
+.more-articles-grid {
+  margin-top: 50px;
+}
+
+
+.week-person-img {
+  width: 220px;
+  height: 220px;
+  margin-right: 30px;
+}
+
+.week-content-title {
+  width: 100px;
+  height: 12px;
+  margin-bottom: 20px;
+}
+
+.week-content-text {
+  width: 870px;
+  height: 190px;
+}
+
+.more-articles-title {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.more-articles-text {
+  width: 300px;
+  height: 150px;
+  margin-bottom: 50px;
+}
+
+.article-creator-left {
+  height: 15px;
+  width: 250px;
+  margin-bottom: 30px; 
 }
