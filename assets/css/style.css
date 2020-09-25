@@ -36,7 +36,11 @@
 
 .grid-3 {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 400px 400px 400px;
+}
+
+.section-padding {
+  padding: 0 0 60px 60px;
 }
 
 /* ---------- Header --------- */
@@ -65,10 +69,6 @@
 
 
 /* --------- First Section - 4 Articles */
-
-.section-one {
-  padding: 0 0 60px 60px;
-}
 
 .article-head {
   margin-top: 40px;
@@ -115,5 +115,82 @@
 
 /* ------- Second Section - 3 Articles */
 
+.date,
+.article-big-title,
+.article-content,
+.article-creator {
+  margin-bottom: 10px;
+}
 
+.date {
+  width: 30px;
+  height: 10px;
+}
 
+.article-big-title {
+  width: 300px;
+  height: 50px;
+}
+
+.article-content {
+  width: 300px;
+  height: 200px;
+}
+
+/* ------------- Third Section ----------- */
+
+.shopify-sqr,
+.smashing-sqr {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.shopify-sqr {
+  width: 20%;
+  height: 200px;
+}
+
+.smashing-sqr {
+  width: 75%;
+  height: 500px;
+}
+
+.shopify-logo {
+  width: 200px;
+  height: 40px;
+}
+
+.shopify-message {
+  width: 250px;
+  height: 60px;
+}
+
+.shopify-btn {
+  width: 150px;
+  height: 40px;
+}
+
+.smashing-img {
+  width: 150px;
+  height: 150px;
+}
+
+.smashing-members {
+  width: 400px;
+  height: 40px;
+}
+
+.smashing-message {
+  width: 420px;
+  height: 80px;
+}
+
+.smashing-btn {
+  width: 150px;
+  height: 50px;
+}
+
+.smashing-signin {
+  width: 150px;
+  height: 10px;
+}
