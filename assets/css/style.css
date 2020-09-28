@@ -6,24 +6,20 @@
   
 }
 
-body {
-  border: 1px solid blue;
-}
-
 .total-width {
     max-width: 1440px;
 }
 
-.gray {
-  background-color: darkgrey;
+.bg-medium {
+  background-color: #4a4e69;
 }
 
-.d-gray {
-  background-color: gray;
+.bg-dark {
+  background-color: #22223b;
 }
 
-.l-gray {
-    background-color: lightgray;
+.bg-light {
+    background-color: #9a8c98;
 }
 
 .d-flex {
