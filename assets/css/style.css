@@ -49,10 +49,17 @@ body {
 .grid-3 {
   display: grid;
   grid-template-columns: 400px 400px 400px;
+  column-gap: 40px;
 }
 
 .section-padding {
   padding: 0 0 60px 60px;
+}
+
+.between-divs {
+  width: 250px;
+  height: 25px;
+  margin: 60px auto;
 }
 
 /* ---------- Header --------- */
@@ -157,6 +164,7 @@ body {
   top: -40px;
   width: 150px;
   height: 300px;
+  transform: rotate(-20deg);
 }
 
 
@@ -170,17 +178,17 @@ body {
 }
 
 .date {
-  width: 30px;
+  width: 60px;
   height: 10px;
 }
 
 .article-big-title {
-  width: 300px;
+  width: 400px;
   height: 50px;
 }
 
 .article-content {
-  width: 300px;
+  width: 400px;
   height: 200px;
 }
 
@@ -396,6 +404,7 @@ body {
   top: -40px;
   width: 150px;
   height: 200px;
+  transform: rotate(-15deg);
 }
 
 /* ----------Last Section */
@@ -405,9 +414,13 @@ body {
   grid-template-columns: 1fr;
 }
 
+.div-width {
+  width: 500px;
+}
+
 .wrapper-div {
   justify-content: space-around;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .guide,
@@ -419,19 +432,138 @@ body {
 .guide {
   width: 200px;
   height: 10px;
+  margin-bottom: 20px;
 }
 
 .guide-title {
   width: 360px;
   height: 35px;
+  margin-bottom: 40px;
 }
 
 .guide-text {
   width: 400px;
   height: 90px;
+  margin-bottom: 30px;
 }
 
 .guide-btn {
   width: 330px;
   height: 40px;
+}
+
+.smashing-sqr {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.smashing-sqr {
+  width: 75%;
+  height: 500px;
+}
+
+.shopify-logo {
+  width: 200px;
+  height: 40px;
+}
+
+.smashing-news-img {
+  width: 250px;
+  height: 250px;
+  align-self: center;
+  margin-bottom: 40px ;
+}
+
+.smashing-newsletters {
+  width: 400px;
+  height: 40px;
+  margin-bottom: 40px;
+}
+
+.smashing-news-message {
+  width: 420px;
+  height: 80px;
+  margin-bottom: 40px;
+}
+
+.smashing-news-btn {
+  width: 450px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.smashing-news-signin {
+  width: 300px;
+  height: 40px;
+  align-self: center;
+}
+
+/* ----------- Footer ------- */
+
+.smashing-footer {
+  align-items: center;
+  padding: 60px 0;
+  position: relative;
+  
+}
+
+.footer-heading {
+  width: 500px;
+  height: 20px;
+  margin-bottom: 50px;
+}
+
+.footer-links {
+  width: 100px;
+  height: 18px;
+  margin: 0 10px 30px 10px;
+}
+
+.info-margin {
+  margin-bottom: 15px;
+}
+
+.info-height {
+  height: 12px;
+}
+
+.footer-info-1 {
+  height: 8px;
+  width: 510px;
+}
+
+.footer-info-2 {
+  width: 520px;
+}
+
+.footer-info-3 {
+  width: 370px;
+}
+
+.footer-info-4 {
+  width: 230px;
+}
+
+.smash-links {
+  width: 100px;
+  margin: 20px 20px;
+}
+
+.footer-corner-btn {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  transform: rotate(-20deg);
+}
+
+/* hover rotate effects */
+
+.footer-corner-btn:hover,
+.brand-char:hover,
+.design-img:hover  {
+  transform: none;
+  transition: 0.3s;
+  cursor: pointer;
 }
