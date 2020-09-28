@@ -2,10 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 1440px;
+  
+}
+
+body {
+  border: 1px solid blue;
 }
 
 .total-width {
-    width: 1440px;
+    max-width: 1440px;
 }
 
 .gray {
@@ -119,6 +125,41 @@
   margin-top: 100px;
 }
 
+/* ---------- Membership Banner Section */
+
+.member-banner-section {
+  padding: 60px 0 50px 150px;
+  position: relative;
+ 
+}
+
+.member-banner-heading {
+  width: 600px;
+  height: 100px;
+  
+}
+
+.member-banner-list {
+  width: 400px;
+  height: 25px;
+  margin-top: 40px;
+}
+
+.member-banner-btn {
+  width: 420px;
+  height: 80px;
+  margin-top: 40px;
+}
+
+.brand-char {
+  position: absolute;
+  right: 350px;
+  top: -40px;
+  width: 150px;
+  height: 300px;
+}
+
+
 /* ------- Second Section - 3 Articles */
 
 .date,
@@ -152,7 +193,7 @@
 }
 
 .shopify-sqr {
-  width: 20%;
+  width: 350px;
   height: 200px;
 }
 
@@ -197,6 +238,39 @@
 }
 
 .smashing-signin {
+  width: 150px;
+  height: 10px;
+}
+
+/* Smashing big banner section */
+
+
+.smashing-banner-sqr {
+  width: 75%;
+  height: 500px;
+}
+
+.smashing-banner-img {
+  width: 150px;
+  height: 150px;
+}
+
+.smashing-banner-members {
+  width: 400px;
+  height: 40px;
+}
+
+.smashing-banner-message {
+  width: 420px;
+  height: 80px;
+}
+
+.smashing-banner-btn {
+  width: 150px;
+  height: 50px;
+}
+
+.smashing-banner-signin {
   width: 150px;
   height: 10px;
 }
