@@ -3,11 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   max-width: 1440px;
-  
 }
 
 .total-width {
-    max-width: 1440px;
+  max-width: 1440px;
 }
 
 .bg-medium {
@@ -19,7 +18,7 @@
 }
 
 .bg-light {
-    background-color: #9a8c98;
+  background-color: #9a8c98;
 }
 
 .d-flex {
@@ -82,7 +81,6 @@
   height: 50px;
 }
 
-
 /* --------- First Section - 4 Articles */
 
 .article-head {
@@ -133,13 +131,11 @@
 .member-banner-section {
   padding: 60px 0 50px 150px;
   position: relative;
- 
 }
 
 .member-banner-heading {
   width: 600px;
   height: 100px;
-  
 }
 
 .member-banner-list {
@@ -162,7 +158,6 @@
   height: 300px;
   transform: rotate(-20deg);
 }
-
 
 /* ------- Second Section - 3 Articles */
 
@@ -248,7 +243,6 @@
 
 /* Smashing big banner section */
 
-
 .smashing-sqr-banner {
   width: 100%;
   height: 500px;
@@ -312,9 +306,8 @@
 
 .meet-click-img {
   width: 800px;
-  height: 400px
+  height: 400px;
 }
-
 
 /* ------- Person of the week section */
 
@@ -325,7 +318,6 @@
 .more-articles-grid {
   margin-top: 50px;
 }
-
 
 .week-person-img {
   width: 220px;
@@ -359,7 +351,7 @@
 .article-creator-left {
   height: 15px;
   width: 250px;
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
 }
 
 /* ------------- Design systems section */
@@ -367,7 +359,6 @@
 .design-banner-section {
   padding: 60px 0 50px 150px;
   position: relative;
- 
 }
 
 .design-banner-mini {
@@ -379,7 +370,6 @@
 .design-banner-heading {
   width: 250px;
   height: 40px;
-  
 }
 
 .design-banner-text {
@@ -394,7 +384,7 @@
   margin-top: 20px;
 }
 
-.design-img  {
+.design-img {
   position: absolute;
   right: 350px;
   top: -40px;
@@ -448,26 +438,11 @@
   height: 40px;
 }
 
-.smashing-sqr {
-  justify-content: space-around;
-  align-items: center;
-}
-
-.smashing-sqr {
-  width: 75%;
-  height: 500px;
-}
-
-.shopify-logo {
-  width: 200px;
-  height: 40px;
-}
-
 .smashing-news-img {
   width: 250px;
   height: 250px;
   align-self: center;
-  margin-bottom: 40px ;
+  margin-bottom: 40px;
 }
 
 .smashing-newsletters {
@@ -499,8 +474,7 @@
 .smashing-footer {
   align-items: center;
   padding: 60px 0;
-  position: relative;
-  
+  position: relative; 
 }
 
 .footer-heading {
@@ -558,7 +532,7 @@
 
 .footer-corner-btn:hover,
 .brand-char:hover,
-.design-img:hover  {
+.design-img:hover {
   transform: none;
   transition: 0.3s;
   cursor: pointer;
