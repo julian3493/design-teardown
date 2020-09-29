@@ -95,6 +95,42 @@
   height: 50px;
 }
 
+/* ------ Top page -------- */
+
+.page-top {
+  margin: 60px 0;
+  position: relative;
+}
+
+.articles-heading {
+  width: 450px;
+  height: 50px;
+  align-self: center;
+}
+
+.articles-heading-2 {
+  width: 300px;
+  height: 50px;
+  align-self: center;
+}
+
+.right-btn-top {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  transform: rotate(-15deg);
+}
+
+.right-btn-top-2 {
+  width: 150px;
+  height: 40px;
+}
+
+.wrapper-btn-right {
+  position: absolute;
+  right: 40px;
+}
+
 /* --------- First Section - 4 Articles */
 
 .article-head {
@@ -546,8 +582,9 @@
 
 .footer-corner-btn:hover,
 .brand-char:hover,
-.design-img:hover {
+.design-img:hover,
+.right-btn-top:hover {
   transform: none;
-  transition: 0.3s;
+  transition: 0.4s;
   cursor: pointer;
 }
