@@ -101,7 +101,7 @@ li {
   padding-top: 10px;
 }
 
-.header-link {
+.link {
   color: white;
   text-decoration: none;
 }
@@ -553,6 +553,7 @@ li {
   width: 100px;
   height: 18px;
   margin: 0 10px 30px 10px;
+  text-align: center;
 }
 
 .info-margin {
@@ -583,6 +584,8 @@ li {
 .smash-links {
   width: 100px;
   margin: 20px 20px;
+  text-align: center;
+  font-size: 12px;
 }
 
 .footer-corner-btn {
