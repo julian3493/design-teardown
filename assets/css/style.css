@@ -1,0 +1,609 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1440px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.total-width {
+  max-width: 1440px;
+}
+
+.bg-medium {
+  background-color: silver;
+}
+
+.bg-dark {
+  background-color: gray;
+}
+
+.bg-light {
+  background-color: lightgray;
+}
+
+.mid-size {
+  font-size: 27px;
+}
+
+.bg-white {
+  color: black;
+  text-align: justify;
+}
+
+.btn-text {
+  font-size: 40px;
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-vertical {
+  flex-direction: column;
+}
+
+.grid-6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  column-gap: 40px;
+}
+
+.section-padding {
+  padding: 0 0 60px 60px;
+}
+
+.between-divs {
+  width: 250px;
+  height: 25px;
+  margin: 60px auto;
+}
+
+.fun-border {
+  border: 1px solid gray;
+}
+
+/* ---------- Header --------- */
+
+.header {
+  height: 15vh;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.logo-div {
+  height: 50px;
+  width: 200px;
+}
+
+.list-item {
+  height: 35px;
+  width: 70px;
+  margin: 0 15px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.header-search {
+  width: 250px;
+  height: 50px;
+}
+
+/* ------ Top page -------- */
+
+.page-top {
+  margin: 60px 0;
+  position: relative;
+}
+
+.articles-heading {
+  width: 450px;
+  height: 50px;
+  align-self: center;
+}
+
+.articles-heading-2 {
+  width: 300px;
+  height: 50px;
+  align-self: center;
+}
+
+.right-btn-top {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  transform: rotate(-15deg);
+}
+
+.right-btn-top-2 {
+  width: 150px;
+  height: 40px;
+}
+
+.wrapper-btn-right {
+  position: absolute;
+  right: 40px;
+}
+
+/* --------- First Section - 4 Articles */
+
+.article-head {
+  margin-top: 40px;
+}
+
+.profile-pic {
+  width: 70px;
+  height: 70px;
+  margin-right: 25px;
+}
+
+.article-creator {
+  height: 15px;
+  width: 250px;
+  align-self: center;
+}
+
+.article-title {
+  width: 500px;
+  height: 150px;
+  margin: 30px 0;
+}
+
+.article-comment {
+  width: 300px;
+  height: 15px;
+}
+
+.article-tags-div {
+  margin: 30px 0;
+}
+
+.article-tags {
+  width: 50px;
+  height: 13px;
+  margin-right: 50px;
+}
+
+.bottom-arrow {
+  width: 40px;
+  height: 8px;
+  margin-top: 100px;
+}
+
+/* ---------- Membership Banner Section */
+
+.member-banner-section {
+  padding: 60px 0 50px 150px;
+  position: relative;
+}
+
+.member-banner-heading {
+  width: 600px;
+  height: 100px;
+}
+
+.member-banner-list {
+  width: 400px;
+  height: 25px;
+  margin-top: 40px;
+}
+
+.member-banner-btn {
+  width: 420px;
+  height: 80px;
+  margin-top: 40px;
+}
+
+.brand-char {
+  position: absolute;
+  right: 350px;
+  top: -40px;
+  width: 150px;
+  height: 300px;
+  transform: rotate(-20deg);
+}
+
+/* ------- Second Section - 3 Articles */
+
+.date,
+.article-big-title,
+.article-content,
+.article-creator {
+  margin-bottom: 10px;
+}
+
+.date {
+  width: 60px;
+  height: 10px;
+}
+
+.article-big-title {
+  width: 400px;
+  height: 50px;
+}
+
+.article-content {
+  width: 400px;
+  height: 200px;
+}
+
+/* ------------- Third Section ----------- */
+
+.shopify-sqr,
+.smashing-sqr {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.shopify-sqr {
+  width: 350px;
+  height: 200px;
+}
+
+.smashing-sqr {
+  width: 75%;
+  height: 500px;
+}
+
+.shopify-logo {
+  width: 200px;
+  height: 40px;
+}
+
+.shopify-message {
+  width: 250px;
+  height: 60px;
+}
+
+.shopify-btn {
+  width: 150px;
+  height: 40px;
+}
+
+.smashing-img {
+  width: 150px;
+  height: 150px;
+}
+
+.smashing-members {
+  width: 400px;
+  height: 40px;
+}
+
+.smashing-message {
+  width: 420px;
+  height: 80px;
+}
+
+.smashing-btn {
+  width: 150px;
+  height: 50px;
+}
+
+.smashing-signin {
+  width: 150px;
+  height: 10px;
+}
+
+/* Smashing big banner section */
+
+.smashing-sqr-banner {
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.smashing-banner-img {
+  width: 150px;
+  height: 150px;
+}
+
+.smashing-banner-members {
+  width: 400px;
+  height: 40px;
+}
+
+.smashing-banner-message {
+  width: 420px;
+  height: 80px;
+}
+
+.smashing-banner-btn {
+  width: 150px;
+  height: 50px;
+}
+
+.smashing-banner-signin {
+  width: 150px;
+  height: 10px;
+}
+
+/* ------- Meet Click banner section */
+
+.meet-click-section {
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 900px;
+}
+
+.meet-click-date {
+  width: 250px;
+  height: 15px;
+}
+
+.meet-click-title {
+  width: 700px;
+  height: 130px;
+}
+
+.meet-click-message {
+  width: 650px;
+  height: 110px;
+}
+
+.meet-click-btn {
+  width: 270px;
+  height: 50px;
+}
+
+.meet-click-img {
+  width: 800px;
+  height: 400px;
+}
+
+/* ------- Person of the week section */
+
+.more-articles-section {
+  margin-top: 50px;
+}
+
+.more-articles-grid {
+  margin-top: 50px;
+}
+
+.week-person-img {
+  width: 220px;
+  height: 220px;
+  margin-right: 30px;
+}
+
+.week-content-title {
+  width: 100px;
+  height: 12px;
+  margin-bottom: 20px;
+}
+
+.week-content-text {
+  width: 870px;
+  height: 190px;
+}
+
+.more-articles-title {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.more-articles-text {
+  width: 300px;
+  height: 150px;
+  margin-bottom: 50px;
+}
+
+.article-creator-left {
+  height: 15px;
+  width: 250px;
+  margin-bottom: 30px;
+}
+
+/* ------------- Design systems section */
+
+.design-banner-section {
+  padding: 60px 0 50px 150px;
+  position: relative;
+}
+
+.design-banner-mini {
+  width: 150px;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+.design-banner-heading {
+  width: 250px;
+  height: 40px;
+}
+
+.design-banner-text {
+  width: 600px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.design-banner-btn {
+  width: 240px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.design-img {
+  position: absolute;
+  right: 350px;
+  top: -40px;
+  width: 150px;
+  height: 200px;
+  transform: rotate(-15deg);
+}
+
+/* ----------Last Section */
+
+.grid-2 {
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+.div-width {
+  width: 500px;
+}
+
+.wrapper-div {
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+.guide,
+.guide-text,
+.guide-title {
+  margin-bottom: 10px;
+}
+
+.guide {
+  width: 200px;
+  height: 10px;
+  margin-bottom: 20px;
+}
+
+.guide-title {
+  width: 360px;
+  height: 35px;
+  margin-bottom: 40px;
+}
+
+.guide-text {
+  width: 400px;
+  height: 90px;
+  margin-bottom: 30px;
+}
+
+.guide-btn {
+  width: 330px;
+  height: 40px;
+}
+
+.smashing-news-img {
+  width: 250px;
+  height: 250px;
+  align-self: center;
+  margin-bottom: 40px;
+}
+
+.smashing-newsletters {
+  width: 400px;
+  height: 40px;
+  margin-bottom: 40px;
+}
+
+.smashing-news-message {
+  width: 420px;
+  height: 80px;
+  margin-bottom: 40px;
+}
+
+.smashing-news-btn {
+  width: 450px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.smashing-news-signin {
+  width: 300px;
+  height: 40px;
+  align-self: center;
+}
+
+/* ----------- Footer ------- */
+
+.smashing-footer {
+  align-items: center;
+  padding: 60px 0;
+  position: relative;
+}
+
+.footer-heading {
+  width: 500px;
+  height: 20px;
+  margin-bottom: 50px;
+}
+
+.footer-links {
+  width: 100px;
+  height: 18px;
+  margin: 0 10px 30px 10px;
+  text-align: center;
+}
+
+.info-margin {
+  margin-bottom: 15px;
+}
+
+.info-height {
+  height: 12px;
+}
+
+.footer-info-1 {
+  height: 8px;
+  width: 510px;
+}
+
+.footer-info-2 {
+  width: 520px;
+}
+
+.footer-info-3 {
+  width: 370px;
+}
+
+.footer-info-4 {
+  width: 230px;
+}
+
+.smash-links {
+  width: 100px;
+  margin: 20px 20px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer-corner-btn {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  transform: rotate(-20deg);
+}
+
+/* hover rotate effects */
+
+.footer-corner-btn:hover,
+.brand-char:hover,
+.design-img:hover,
+.right-btn-top:hover {
+  transform: none;
+  transition: 0.4s;
+  cursor: pointer;
+}
