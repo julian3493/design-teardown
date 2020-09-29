@@ -5,6 +5,10 @@
   max-width: 1440px;
 }
 
+ul, li {
+  list-style: none;
+}
+
 .total-width {
   max-width: 1440px;
 }
@@ -69,6 +73,10 @@
   width: 250px;
   height: 25px;
   margin: 60px auto;
+}
+
+.fun-border {
+  border: 1px solid gray;
 }
 
 /* ---------- Header --------- */
