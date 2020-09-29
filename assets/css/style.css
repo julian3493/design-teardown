@@ -5,7 +5,8 @@
   max-width: 1440px;
 }
 
-ul, li {
+ul,
+li {
   list-style: none;
 }
 
@@ -95,7 +96,14 @@ ul, li {
 .list-item {
   height: 35px;
   width: 70px;
-  margin: 0 20px;
+  margin: 0 15px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.header-link {
+  color: white;
+  text-decoration: none;
 }
 
 .header-search {
